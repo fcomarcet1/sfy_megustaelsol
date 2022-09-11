@@ -1,0 +1,57 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <body class="host_version">
+    <!--  Login and Registration Modal -->
+       {# {% include 'partials/modal-auth.html.twig' %}#}
+    <!--  End Login and Registration Modal -->
+
+    <!-- LOADER -->
+        {#{% include 'partials/preloader.html.twig' %}#}
+    <!-- END LOADER -->
+
+    <!-- Start header -->
+        {#{% include 'partials/header.html.twig' %}#}
+    <!-- End header -->
+
+    <!-- Start carousel -->
+        {% include 'partials/carousel.html.twig' %}
+    <!-- End carousel -->
+
+    <!-- Start section overviews -->
+        {% include 'partials/section-overviews.html.twig' %}
+    <!-- end section overviews -->
+
+    <!-- Start section timeline history-->
+        {% include 'partials/section-features.html.twig' %}
+    <!-- end section timeline history -->
+
+    <!-- Start section counter-->
+        {% include 'partials/section-counter.html.twig' %}
+    <!-- end section counter -->
+
+    <!-- Start section plans subscription -->
+        {% include 'partials/section-plans-subscription.html.twig' %}
+    <!-- end section plans subscription-->
+
+    <!-- Start section testimonials -->
+        {% include 'partials/section-testimonials.html.twig' %}
+    <!-- end section testimonials -->
+
+    <!-- Start section parallax-companies-logos -->
+        {% include 'partials/parallax-companies-logos.html.twig' %}
+    <!-- end section parallax-companies-logos -->
+
+    <!-- Start section footer -->
+        {#{% include 'partials/footer.html.twig' #}%}
+    <!-- end footer -->
+
+    <!-- Start section copyrights -->
+        {#{% include 'partials/copyrights.html.twig' %}#}
+    <!-- end  section copyrights -->
+
+    <!-- Start section scroll top -->
+        {% include 'partials/scroll-top.html.twig' %}
+    <!-- end section scroll top -->
+
+{% endblock %}
