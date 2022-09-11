@@ -169,30 +169,8 @@
                 </nav>
             </header>
         {% endblock %}
-        {% block body %}
-            <!--  Login and Registration Modal -->
-            {#{% include 'partials/modal-auth.html.twig' %}#}
-            <!--  End Login and Registration Modal -->
-            <!-- LOADER -->
-                {#{% include 'partials/preloader.html.twig' %}#}
-            <!-- END LOADER -->
-
-            <!-- Start header -->
-                {#{% include 'partials/header.html.twig' %}#}
-            <!-- End header -->
-
-            <!-- Start section footer -->
-                {#{% include 'partials/footer.html.twig' %}#}
-            <!-- end footer -->
-
-            <!-- Start section copyrights -->
-                {#{% include 'partials/copyrights.html.twig' %}#}
-            <!-- end  section copyrights -->
-
-            <!-- Start section scroll top -->
-                {#{% include 'partials/scroll-top.html.twig' %}#}
-            <!-- end section scroll top -->
-        {% endblock %}
+        {# Block to add main content#}
+        {% block body %}{% endblock %}
         {% block footer %}
             <footer class="footer">
                 <div class="container">
