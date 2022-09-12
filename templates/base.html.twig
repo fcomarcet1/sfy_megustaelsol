@@ -263,7 +263,8 @@
                     visibleItems: 4
                 });
             </script>
-            <script>
+            <script src="{{ asset('js/consent_cookies.js') }}"></script>
+            {#<script>
                 window.addEventListener('load', function(){
                     // obtain plugin
                     var cc = initCookieConsent();
@@ -381,7 +382,7 @@
                         }
                     });
                 });
-            </script>
+            </script>#}
         {% endblock %}
     </body>
 </html>
