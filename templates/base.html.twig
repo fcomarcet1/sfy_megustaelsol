@@ -26,8 +26,9 @@
             <link rel="stylesheet" type="text/css" href="{{ asset('css/responsive.css') }}">
             <!-- Custom CSS -->
             <link rel="stylesheet" type="text/css" href="{{ asset('css/custom.css') }}">
-
-            <link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.6/dist/cookieconsent.css" rel="stylesheet" type="text/css" />
+            <!-- Cookie consent banner -->
+            <link rel="stylesheet" type="text/css" href="{{ asset('css/cookieconsent..css') }}">
+            {# <link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.6/dist/cookieconsent.css" rel="stylesheet" type="text/css" /> #}
         {% endblock %}
         {% block js %}
             {#{{ encore_entry_script_tags('app') }}#}
@@ -247,8 +248,9 @@
         {% endblock %}
         {% block javascripts %}
 
-            # CDN links
-            <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.6/dist/cookieconsent.js"></script>
+            <!-- Cookie consent banner -->
+            <script src="{{ asset('js/cookieconsent.js')}}"></script>
+            {# <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.6/dist/cookieconsent.js"></script> #}
 
             {#{{ encore_entry_script_tags('app') }}#}
             <script src="{{ asset('js/all.js')}}"></script>
@@ -263,7 +265,7 @@
                     visibleItems: 4
                 });
             </script>
-            <script src="{{ asset('js/consent_cookies.js') }}"></script>
+            <script src="{{ asset('js/consent_cookies_script.js') }}"></script>
         {% endblock %}
     </body>
 </html>
