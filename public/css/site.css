@@ -4457,18 +4457,22 @@ span.m_1 {
 
 
 .img-bg-01{
+    background-color: black !important;
     background: url(images/img-01.jpg) no-repeat center;
     background-size: cover;
 }
 .img-bg-02{
+    background-color: black !important;
     background: url(images/img-02.jpg) no-repeat center;
     background-size: cover;
 }
 .img-bg-03{
+    background-color: black !important;
     background: url(images/img-03.jpg) no-repeat center;
     background-size: cover;
 }
 .img-bg-04{
+    background-color: black !important;
     background: url(images/img-04.jpg) no-repeat center;
     background-size: cover;
 }
