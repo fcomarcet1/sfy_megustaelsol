@@ -26,6 +26,8 @@
             <link rel="stylesheet" type="text/css" href="{{ asset('css/responsive.css') }}">
             <!-- Custom CSS -->
             <link rel="stylesheet" type="text/css" href="{{ asset('css/custom.css') }}">
+
+            <link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.6/dist/cookieconsent.css" rel="stylesheet" type="text/css" />
         {% endblock %}
         {% block js %}
             {#{{ encore_entry_script_tags('app') }}#}
@@ -244,6 +246,10 @@
             <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
         {% endblock %}
         {% block javascripts %}
+
+            # CDN links
+            <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.6/dist/cookieconsent.js"></script>
+
             {#{{ encore_entry_script_tags('app') }}#}
             <script src="{{ asset('js/all.js')}}"></script>
             <!-- ALL PLUGINS -->
@@ -257,6 +263,7 @@
                     visibleItems: 4
                 });
             </script>
+            <script src="{{ asset('js/consent_cookies.js') }}"></script>
         {% endblock %}
     </body>
 </html>

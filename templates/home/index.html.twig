@@ -3,6 +3,9 @@
 {% block body %}
     <body class="host_version">
 
+{#
+    {{ render_esi(path('ch_cookie_consent.show_if_cookie_consent_not_set')) }}
+#}
     <!-- Start carousel -->
         {% include 'partials/carousel.html.twig' %}
     <!-- End carousel -->
