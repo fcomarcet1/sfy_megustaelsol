@@ -12,6 +12,11 @@ about_us:
     controller: App\Controller\AboutUsController::index
     methods: [GET]
 
+contact:
+    path: /contact
+    controller: App\Controller\ContactController::index
+    methods: [GET]
+
 #health_check:
 #  path: /
 #  controller: App\Controller\HealthCheckController
