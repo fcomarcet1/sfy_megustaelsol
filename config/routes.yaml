@@ -2,6 +2,16 @@
 #    path: /
 #    controller: App\Controller\DefaultController::index
 
+home:
+    path: /
+    controller: App\Controller\HomeController::index
+    methods: [GET]
+
+about_us:
+    path: /about_us
+    controller: App\Controller\AboutUsController::index
+    methods: [GET]
+
 #health_check:
 #  path: /
 #  controller: App\Controller\HealthCheckController
