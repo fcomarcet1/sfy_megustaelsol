@@ -51,7 +51,7 @@
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs">
                         <li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
-                        <li><a href="#Registration" data-toggle="tab">Registro</a></li>
+                        <li><a href="#Registration" data-toggle="tab">Registrate</a></li>
                     </ul>
                     <!-- Tab panes -->
                     <div class="tab-content">
@@ -76,6 +76,10 @@
                                     <div class="col-sm-10">
                                         <button type="submit" class="btn btn-dark btn-radius grd1">
                                             Acceso
+                                        </button>
+                                        <button type="submit" class="btn btn-dark btn-radius grd1"
+                                                 onclick="window.location.href='{{ path('home') }}';">
+                                            Cancelar
                                         </button>
                                         <a class="for-pwd" href="javascript:;">Olvidaste tu contraseña?</a>
                                     </div>
