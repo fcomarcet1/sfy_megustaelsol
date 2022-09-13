@@ -4,17 +4,22 @@
 
 home:
     path: /
-    controller: App\Controller\HomeController::index
+    controller: App\Controller\Home\HomeController::index
     methods: [GET]
 
 about_us:
     path: /about_us
-    controller: App\Controller\AboutUsController::index
+    controller: App\Controller\AboutUs\AboutUsController::index
     methods: [GET]
 
 contact:
     path: /contact
-    controller: App\Controller\ContactController::index
+    controller: App\Controller\Contact\ContactController::index
+    methods: [GET]
+
+news:
+    path: /news
+    controller: App\Controller\News\NewsController::index
     methods: [GET]
 
 #health_check:
